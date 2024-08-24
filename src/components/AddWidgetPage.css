@@ -1,0 +1,88 @@
+.title{
+    height: 30px;
+    background-color: rgb(14, 14, 105);
+    text-align: start;
+    display: flex;
+}
+.text3{
+    margin-left:3px;
+    padding-top: 3px;
+    color: white;
+    font-weight:bold;
+}
+.cross{
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.info{
+    
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.category {
+    position: relative;
+    display: flex; 
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+.cspm{
+    color: gray;
+    font-weight: bold;
+    border: none;
+    background:none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: color 0.3s;
+   
+}
+.cspm.active {
+    color: blue; 
+}
+.form-overlay{
+    height: 600px;
+}
+.form-container{
+    padding-left: 30px;
+    padding-top: 20px;
+    text-align: start;
+
+}
+.form-group{
+    margin-bottom: 10px;
+   
+}
+input,textarea{
+    width: 500px;
+    height:20px
+}
+.wid{
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 420px;
+}
+.form-button{
+    color: white;
+    background-color: rgb(14, 14, 105);
+    border-radius: 5px;
+    border: 2px solid rgb(14, 14, 105);
+    height: 30px;
+    width: 150px;
+    
+}
+.cancel-button{
+    color: rgb(14, 14, 105);
+    background-color:white;
+    border-radius: 5px;
+    border: 2px solid rgb(14, 14, 105);
+    height: 30px;
+    width: 150px;
+    margin-right: 8px;
+}
+
